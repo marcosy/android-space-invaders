@@ -6,17 +6,17 @@ _Simple retro game [space-invaders](https://en.wikipedia.org/wiki/Space_Invaders
 ## Motivation
 I built this video game in 2014 as part of a mobile devices programming course I took. It was developed using just native Android, no frameworks were used. I decided to upload it for two reasons. On the one hand, because it may be useful to people who are getting started on android game programming. On the other hand, because when I re-discover it after a couple of years, I found it nice in some way, so I wanted to preserve it.
 
-<div style="text-align:center">
+<p align="center">
   <img src ="./img/welcome-screen.png" height=600/>
-</div>
+</p>
 
 
 ## Controls
 Controls are simple. Just tap to shoot and turn your device left and right to move the ship. Accelerometer values will be used to control the horizontal position. Destroy all enemy ships to pass to the level.
 
-<div style="text-align:center">
+<p align="center">
   <img src ="./img/game-screen.gif" height=600/>
-</div>
+</p>
 
 
 ## Building
