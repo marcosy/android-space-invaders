@@ -1,4 +1,4 @@
-# Android Space Invader <img src ="./img/space-invader-icon.png" height=40 align="right"/>
+# Android Space Invader <img src ="./img/space-invader-icon.png" height=45 align="right"/>
 
 _Simple retro game [space-invaders](https://en.wikipedia.org/wiki/Space_Invaders) like for Android platform._
 
@@ -10,6 +10,7 @@ I built this video game in 2014 as part of a mobile devices programming course I
 <p align="center">
   <img src ="./img/welcome-screen.png" height=600/>
 </p>
+
 
 ## Controls
 <p align="justify">
@@ -30,24 +31,17 @@ A `GameView` object is created in `MainActivity.java` constructor and set as con
 gameView = new GameView(this,this);
 setContentView(gameView);
 ```
-<p align="justify">
 `GameView` extends from [SurfaceView](https://developer.android.com/reference/android/view/SurfaceView) and it is the place where the game logic lives. A callback listener to the holder is added in the constructor. The `surfaceCreated` method is overriden to start the `gameLoopThread`.
 This thread will call the `onDraw` method of the `GameView` class within a loop. This method will draw all the game components with its updated positions each time it is called.
-</p>
-<p align="justify">
 A disclaimer here: If you take a look at the code, you will find a lot of stuff to improve (mostly due to time restrictions and student-level android programming). It is not my idea to spend much more time improving this project however, contributions are always welcome.
-</p>
 
 ## Credits
-- <p align="justify"> The high-level design was taken from [edu4java](http://edu4java.com) site, using ideas from the [android game programming](http://edu4java.com/en/androidgame/androidgame1.html) tutorial.</p>
+- The high-level design was taken from [edu4java](http://edu4java.com) site, using ideas from the [android game programming](http://edu4java.com/en/androidgame/androidgame1.html) tutorial.
 
-- <p align="justify"> Sprites were taken from [MillionthVector](http://millionthvector.blogspot.com/p/free-sprites.html). It is a cool blog with many sprites licensed under Creative Commons license.</p>
+- Sprites were taken from [MillionthVector](http://millionthvector.blogspot.com/p/free-sprites.html). It is a cool blog with many sprites licensed under Creative Commons license.
 
-- <p align="justify"> I had to change the original music because I was not able to find any reference to it on the web. When looking for new songs, I found this great website [patrickdearteaga.com](https://patrickdearteaga.com/chiptune-8-bit-retro/) which contains lots of royalty-free soundtracks for video games. I picked the one called _"New Hope"_
-</p>
+- I had to change the original music because I was not able to find any reference to it on the web. When looking for new songs, I found this great website [patrickdearteaga.com](https://patrickdearteaga.com/chiptune-8-bit-retro/) which contains lots of royalty-free soundtracks for video games. I picked the one called _"New Hope"_
 
 
 ## License
-<p align="justify">
 This project is licensed under GNU General Public License. See the [LICENSE](LICENSE) file for details.
-</p>
